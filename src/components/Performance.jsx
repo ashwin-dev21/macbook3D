@@ -100,7 +100,7 @@ const Performance = () => {
                 Next-level graphics performance. Game on.
             </h2>
 
-            <div className="wrapper relative w-full min-h-[400px]">
+            <div className="wrapper relative w-full min-h-100">
                 {performanceImages.map((item, index) => (
                     <img
                         key={item.id || index}
